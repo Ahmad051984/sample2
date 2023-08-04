@@ -21,44 +21,43 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="container">
-				<div class="header__row">
-					<div class="header__logo">
-						<img src="/img/Logo.png" alt="Logo">
+			<div class="header__main">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__logo">
+							<img src="/img/Logo.png" alt="Logo">
+						</div>
+						<ul class="header__icons">
+							<li class="header__items">
+								<a href=""><img src="/img/icons/youtube-logo.svg" alt="youtube-logo"></a>
+							</li>
+							<li class="header__items">
+								<a href=""><img src="/img/icons/vk-logo.svg" alt="vk-logo"></a>
+							</li>
+							<li class="header__items">
+								<a href=""><img src="/img/icons/facebook-logo.svg" alt="facebook-logo"></a>
+							</li>
+							<li class="header__items">
+								<a href=""><img src="/img/icons/twitter-logo.svg" alt="twitter-logo"></a>
+							</li>
+							<li class="header__items">
+								<a href=""><img src="/img/icons/twitch-logo.svg" alt="twitch-logo"></a>
+							</li>
+							<li class="header__items">
+								<a href=""><img src="/img/icons/instagram-logo.svg" alt="instagram-logo"></a>
+							</li>
+						</ul>
 					</div>
-					<ul class="header__icons">
-						<li class="header__items">
-							<a href=""><img src="/img/icons/youtube-logo.svg" alt="youtube-logo"></a>
-						</li>
-						<li class="header__items">
-							<a href=""><img src="/img/icons/vk-logo.svg" alt="vk-logo"></a>
-						</li>
-						<li class="header__items">
-							<a href=""><img src="/img/icons/facebook-logo.svg" alt="facebook-logo"></a>
-						</li>
-						<li class="header__items">
-							<a href=""><img src="/img/icons/twitter-logo.svg" alt="twitter-logo"></a>
-						</li>
-						<li class="header__items">
-							<a href=""><img src="/img/icons/twitch-logo.svg" alt="twitch-logo"></a>
-						</li>
-						<li class="header__items">
-							<a href=""><img src="/img/icons/instagram-logo.svg" alt="instagram-logo"></a>
-						</li>
-					</ul>
+					<div class="header__sticker-row">
+						<div class="header__sticker"style="background-image: url(/img/Rectangle\ 59.svg);">
+							<div class="header__title title">Доступно на всех платформах</div>
+							<button class="header__btn btn">
+								<span>Узнать больше</span>
+							</button>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="header__sticker">
-				<div class="header__sticker-img">
-					<!-- <svg xmlns="http://www.w3.org/2000/svg" width="624" height="369" viewBox="0 0 624 369" fill="none">
-						<path d="M624 0H49L0 50V369H574L624 319V0Z" fill="#F8F200"/>
-					  </svg> -->
-					</div>
-					<img src="/img/Rectangle 59.svg" alt="">
-					<div class="header__title">Доступно на всех платформах</div>
-				<button class="header__btn btn">
-					<span>Узнать больше</span>
-				</button>
+				
 			</div>
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
@@ -71,11 +70,18 @@
 				  <div class="swiper-slide">
 					<img src="/img/Slider1920/s3.jpg" alt="">
 				  </div>
+				  <!-- <div class="swiper-slide">
+					<picture>
+						<source srcset="/img/Slider1024/s1.jpg" type="image/jpeg" media="(max-width: 1024px)">
+						<source srcset="/img/Slider320/s1.jpg" type="image/jpeg" media="(max-width:320px)">
+						<img src="/img/Slider1920/s1.jpg" alt="MDN">
+					   </picture>
+				  </div> -->
 				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
 				<!-- <div class="swiper-pagination"></div> -->
-			  </div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</header>
 
 
@@ -84,7 +90,67 @@
 
 
 
-		<main class="main"></main>
+		<main class="main">
+			<div class="container">
+				<section class="about">
+					<h1 class="about__title title">Найт-Сити изменит тебя навсегда!</h1>
+					<p class="about__text"><span>Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+					<div class="about__row">
+						<div class="about__small-images">
+							<img src="/img/block-2/image1.png" alt="sity">
+							<img src="/img/block-2/image2.png" alt="sity">
+						</div>
+						<div class="about__big-image">
+							<img src="/img/block-2/image3.png" alt="sity">
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<div class="divider1" style="background-image: url(/img/divider1.png);"></div>
+			
+			
+			<section class="play">
+				<div class="container">
+					<div class="play__title-row">
+						<div class="play__sticker" style="background-image: url(/img/block-3/sticker.svg);">
+							<!-- <img src="/img/block-3/sticker.svg" alt=""> -->
+							<span>акция</span>
+						</div>
+						<div class="play__title title">Играй и выигрывай!</div>
+
+					</div>
+					
+					<div class="play__text">Играй в <span>Cyberpunk 2077</span> и получи возможность выиграть консоль <span>Xbox Series X</span> или <span>Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;&#41;</div>
+					<div class="play__row">
+						<form class="play__form">
+							<input class="play__name" type="text" name="name" placeholder="Как тебя зовут?">
+							<input class="play__email" type="email" name="email" placeholder="Твой е-mail">
+							<input class="play__file" id="play__file" type="file" name="screenshot" placeholder="Прикрепить скриншот">
+							<label class="play__file-lable" for="play__file">
+								<span class="play__file-btn-text">adf</span>
+								
+							</label>
+						</form>
+						<div class="play__images">
+							<div class="play__image">
+								<img src="" alt="">
+							</div>
+							<div class="play__image">
+								<img src="" alt="">
+							</div>
+						</div>
+						
+						
+					</div>
+					
+					
+					
+
+				</div>
+			</section>
+		</main>
 		<footer class="footer"></footer>
 
 		<script src="js/swiper-bundle.min.js"></script>
