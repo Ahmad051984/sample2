@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap");
 @font-face {
   font-family: "Archangelsk";
-  src: url("/fonts/Archangelsk.eot");
-  src: url("/fonts/Archangelsk.eot?#iefix") format("embedded-opentype"), url("/fonts/Archangelsk.woff2") format("woff2"), url("/fonts/Archangelsk.woff") format("woff"), url("/fonts/Archangelsk.svg#Archangelsk") format("svg");
+  src: url("../fonts/Archangelsk.eot");
+  src: url("../fonts/Archangelsk.eot?#iefix") format("embedded-opentype"), url("../fonts/Archangelsk.woff2") format("woff2"), url("../fonts/Archangelsk.woff") format("woff"), url("../fonts/Archangelsk.svg#Archangelsk") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -178,6 +178,13 @@ h6 {
 .title {
   font-family: "Archangelsk";
   font-size: 62px;
+}
+
+.btn {
+  width: 192px;
+  height: 59px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .swiper {
@@ -358,11 +365,7 @@ h6 {
 .play__btn {
   margin-top: 35px;
   background: #F8F200;
-  width: 192px;
-  height: 59px;
   color: #000;
-  font-size: 18px;
-  font-weight: 700;
 }
 .play__checkbox {
   margin-top: 15px;
@@ -471,8 +474,8 @@ input:focus:-ms-input-placeholder {
 }
 
 .hp {
-  height: 676px;
   background-color: #F8F200;
+  padding-bottom: 80px;
 }
 .hp__row {
   display: flex;
@@ -507,7 +510,9 @@ input:focus:-ms-input-placeholder {
 .hp__list li:nth-child(1) {
   content: "";
   height: 32px;
-  background-image: url();
+  background-image: url(../img/block-4/color_lens.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
   padding-left: 42px;
 }
 .hp__list li:nth-child(2) {
@@ -518,8 +523,92 @@ input:focus:-ms-input-placeholder {
   background-position: 0 -3px;
   padding-left: 42px;
 }
-.hp__list li:nth-child(1) {
+.hp__list li:nth-child(3) {
   content: "";
   height: 32px;
-  background-image: url();
+  background-image: url(../img/block-4/motion.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
+  padding-left: 42px;
+}
+.hp__btn {
+  margin-top: 45px;
+  background: #000;
+  color: #F8F200;
+}
+
+.purchase {
+  display: flex;
+  background: #000;
+}
+.purchase__image {
+  flex: 0 1 50%;
+}
+.purchase__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.purchase__description {
+  flex-grow: 1;
+  margin-left: 32px;
+}
+.purchase__description ul {
+  margin-top: 21px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+.purchase__description ul li + li {
+  margin-top: 26px;
+}
+.purchase__description ul li:nth-child(1) {
+  content: "";
+  height: 32px;
+  background-image: url(../img/purchase/icon-1.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
+  padding-left: 42px;
+}
+.purchase__description ul li:nth-child(2) {
+  content: "";
+  height: 32px;
+  background-image: url(../img/purchase/icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
+  padding-left: 42px;
+}
+.purchase__description ul li:nth-child(3) {
+  content: "";
+  height: 32px;
+  background-image: url(../img/purchase/icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -3px;
+  padding-left: 42px;
+}
+.purchase__title {
+  color: #FFF;
+  margin-top: 70px;
+}
+.purchase__subtitle {
+  margin-top: 25px;
+  color: #52BEDC;
+  font-size: 24px;
+  font-weight: 700;
+}
+.purchase__subtitle.purchase__subtitle2 {
+  margin-top: 75px;
+}
+.purchase__platform-box {
+  display: flex;
+  margin-top: 47px;
+  max-width: 319px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.purchase__platform-box-item {
+  margin-left: 15px;
 }
