@@ -591,7 +591,50 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		margin-left: 15px;
 		
 	}
-	li{
+}
 
+// Footer
+
+.footer {
+
+	&__white {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+	}
+
+	&__logo {
+		display: flex;
+	}
+
+
+	&__logo-item + &__logo-item {
+		padding-left: 32px;
+	}
+
+	&__links {
+		display: flex;
+		a{
+			color:black;
+		}
+	}
+	&__links div {
+		margin-left: 32px;
+	}
+	&__black{
+		background-color: black;
+		height: 40px;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		color: #FFF;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
 	}
 }
+
+

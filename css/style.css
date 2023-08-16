@@ -612,3 +612,38 @@ input:focus:-ms-input-placeholder {
 .purchase__platform-box-item {
   margin-left: 15px;
 }
+
+.footer__white {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.footer__logo {
+  display: flex;
+}
+.footer__logo-item + .footer__logo-item {
+  padding-left: 32px;
+}
+.footer__links {
+  display: flex;
+}
+.footer__links a {
+  color: black;
+}
+.footer__links div {
+  margin-left: 32px;
+}
+.footer__black {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
