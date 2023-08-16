@@ -404,7 +404,7 @@ h6 {
 .play__images {
   display: flex;
   max-width: 788px;
-  flex-wrap: wrap;
+  margin-top: -60px;
 }
 .play__image {
   z-index: 2;
@@ -412,15 +412,10 @@ h6 {
   background-position: -10px -30px;
   height: 456px;
 }
-.play__image img {
-  padding-left: 150px;
-}
 .play__image-rigth {
-  margin-left: -110px;
-  z-index: 1;
-  background-position: -10px -10px;
+  z-index: 0;
+  margin-left: -120px;
 }
-
 input::-webkit-input-placeholder {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;

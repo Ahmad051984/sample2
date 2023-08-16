@@ -385,7 +385,10 @@ $fontfamily: 'Roboto', sans-serif;
 	&__images {
 		display: flex;
 		max-width: 788px;
-		flex-wrap: wrap;
+		margin-top: -60px;
+		// margin-left: 15px;
+		// flex-wrap: wrap;
+		// overflow: hidden;
 	}
 	
 	&__image {
@@ -394,14 +397,15 @@ $fontfamily: 'Roboto', sans-serif;
 		background-position: -10px -30px;
 		height: 456px;
 	}
+	&__image-rigth {
+		z-index: 0;
+		margin-left: -120px;
+	}
+
 	&__image img{
-		padding-left: 150px;
+		// padding-left: 150px;
 	}
-	&__image-rigth{
-		margin-left: -110px;
-		z-index: 1;
-		background-position: -10px -10px;
-	}
+
 	
 
 }
