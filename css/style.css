@@ -303,8 +303,19 @@ h6 {
   background-color: #000;
   padding-bottom: 70px;
 }
+@media (max-width: 1350px) {
+  .play {
+    padding-top: 15px;
+  }
+}
 .play__title-row {
   display: flex;
+}
+@media (max-width: 1350px) {
+  .play__title-row {
+    width: 50%;
+    display: block;
+  }
 }
 .play__sticker {
   margin-top: 15px;
@@ -324,10 +335,21 @@ h6 {
   font-weight: 400;
   line-height: normal;
 }
+@media (max-width: 1350px) {
+  .play__sticker {
+    margin-top: 0px;
+  }
+}
 .play__title {
   color: #FFF;
   margin-left: 32px;
   margin-top: 70px;
+}
+@media (max-width: 1350px) {
+  .play__title {
+    margin-top: 15px;
+    margin-left: 0;
+  }
 }
 .play__text {
   margin-top: 25px;
@@ -341,9 +363,19 @@ h6 {
   font-weight: 700;
   color: #52BEDC;
 }
+@media (max-width: 1350px) {
+  .play__text {
+    width: 50%;
+  }
+}
 .play__row {
   display: flex;
   margin-top: 84px;
+}
+@media (max-width: 1350px) {
+  .play__form {
+    margin-top: 98px;
+  }
 }
 .play__form input {
   display: block;
@@ -456,6 +488,13 @@ h6 {
   max-width: 788px;
   margin-top: -60px;
 }
+@media (max-width: 1350px) {
+  .play__images {
+    display: block;
+    margin-top: -400px;
+    margin-left: 32px;
+  }
+}
 .play__image {
   z-index: 2;
   background-repeat: no-repeat;
@@ -465,6 +504,11 @@ h6 {
 .play__image-rigth {
   z-index: 0;
   margin-left: -120px;
+}
+@media (max-width: 1350px) {
+  .play__image-rigth {
+    margin-left: 0;
+  }
 }
 input::-webkit-input-placeholder {
   opacity: 1;
@@ -526,18 +570,46 @@ input:focus:-ms-input-placeholder {
   display: flex;
   padding-top: 70px;
 }
+.hp__main-images {
+  flex: 1 1 460px;
+  overflow: hidden;
+}
+@media (max-width: 1350px) {
+  .hp__main-images {
+    margin-top: 50px;
+  }
+}
+.hp__big-image img {
+  width: 100%;
+  height: 100%;
+}
 .hp__logo-icons {
   display: inline-flex;
   margin-top: 26px;
   margin-left: 44px;
+  align-items: center;
 }
-.hp__logo-icon + .hp__logo-icon {
-  display: block;
+.hp__logo-icons div + div {
   margin-left: 25px;
+}
+@media (max-width: 1350px) {
+  .hp__logo-icons {
+    display: block;
+    min-width: 460px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1350px) {
+  .hp__logo-icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 }
 .hp__text {
   margin-left: 32px;
   font-size: 18px;
+  flex: 1 1 460px;
 }
 .hp__text-description {
   margin-top: 25px;
