@@ -340,6 +340,7 @@ $fontfamily: 'Roboto', sans-serif;
 .play {
 	background-color: #000;
 	padding-bottom: 70px;
+	position: relative;
 	@media (max-width: 1350px) {
 		padding-top: 15px;
 	}
@@ -348,6 +349,9 @@ $fontfamily: 'Roboto', sans-serif;
 		@media (max-width: 1350px) {
 			width: 50%;
 			display: block;
+		}
+		@media (max-width: 992px) {
+			width: 100%;
 		}
 	}
 	&__sticker {
@@ -366,9 +370,17 @@ $fontfamily: 'Roboto', sans-serif;
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
+			@media (max-width: 992px) {
+				font-size: 14px;
+			}
 		}
-		@media (max-width: 1350px) {
+		@media (max-width: 992px) {
+			background-size: contain;
 			margin-top: 0px;
+			width: 62px;
+			height: 62px;
+			padding-top: 15px;
+			padding-left: 8px;
 		}
 	}
 
@@ -379,6 +391,9 @@ $fontfamily: 'Roboto', sans-serif;
 		@media (max-width: 1350px) {
 			margin-top: 15px;
 			margin-left: 0;
+		}
+		@media (max-width: 992px) {
+			margin-top: 173px;
 		}
 	}
 
@@ -396,17 +411,27 @@ $fontfamily: 'Roboto', sans-serif;
 		@media (max-width: 1350px) {
 			width: 50%;
 		}
+		@media (max-width: 992px) {
+			width: 100%;
+		}
 	}
 
 	&__row {
 		display: flex;
 		margin-top: 84px;
-
+		@media (max-width: 992px) {
+			justify-content: center;
+		}
 	}
 
 	&__form {
+		flex: 1 1 auto;
+		max-width: 460px;
 		@media (max-width: 1350px) {
 			margin-top: 98px;
+		}
+		@media (max-width: 992px) {
+			max-width: 296px;
 		}
 
 		input {
@@ -419,7 +444,7 @@ $fontfamily: 'Roboto', sans-serif;
 		}
 	}
 	&__name {
-		width: 460px;
+		width: 100%;
 		height: 47px;
 		border-bottom: #777 solid 1px;
 		&::placeholder{
@@ -429,7 +454,7 @@ $fontfamily: 'Roboto', sans-serif;
 		}
 	}
 	&__email{
-		width: 460px;
+		width: 100%;
 		height: 47px;
 		border-bottom: #777 solid 1px;
 		&::placeholder{
@@ -446,7 +471,7 @@ $fontfamily: 'Roboto', sans-serif;
 	&__file-lable {
 		margin-top: 35px;
 		display: block;
-		max-width: 460px;
+		max-width: 100%;;
 		height: 120px;
 		background-color: #000000;
 		text-align: center;
@@ -455,11 +480,14 @@ $fontfamily: 'Roboto', sans-serif;
 		font-size: 18px;
 		font-weight: 300;
 		border: 1px dashed #777;
-		stroke-dasharray: 2;
 		cursor: pointer;
 		span{
 			display: block;
 			text-decoration-line: underline;
+		}
+		@media (max-width: 992px) {
+			font-size: 16px;
+			padding: 39px 0;
 		}
 	}
 	&__file-text {
@@ -467,6 +495,9 @@ $fontfamily: 'Roboto', sans-serif;
 		color: #FFF;
 		font-size: 12px;
 		font-weight: 300;
+		@media (max-width: 992px) {
+			display: none;
+		}
 	}
 	&__btn{
 		margin-top: 35px;
@@ -523,16 +554,27 @@ $fontfamily: 'Roboto', sans-serif;
 		// overflow: hidden;
 		@media (max-width: 1350px) {
 			display: block;
-			margin-top: -400px;
-			margin-left: 32px;
+			position: absolute;
+			top: 170px;
+			left: 720px;
+		}
+		@media (max-width: 992px) {
+			display: flex;
+			position: absolute;
+			top: 170px;
+			left: 0px;
+			width: 100%;
+			justify-content: space-around;
 		}
 	}
 	
 	&__image {
 		z-index: 2;
-		background-repeat: no-repeat;
-		background-position: -10px -30px;
 		height: 456px;
+		@media (max-width: 992px) {
+			height: 130px;
+			width: 130px;
+		}
 	}
 	&__image-rigth {
 		z-index: 0;
@@ -543,7 +585,9 @@ $fontfamily: 'Roboto', sans-serif;
 	}
 
 	&__image img{
-		// padding-left: 150px;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
 	}
 
 	
