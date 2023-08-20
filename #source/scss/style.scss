@@ -128,6 +128,9 @@ $fontfamily: 'Roboto', sans-serif;
 			height: 84.9vh;
 
 		}
+		@media (max-height: 500px) {
+			display: none;
+		}
 
 		// height: 875px;
 		// margin-top: 475px;

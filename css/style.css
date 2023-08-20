@@ -172,6 +172,11 @@ h6 {
     height: 84.9vh;
   }
 }
+@media (max-height: 500px) {
+  .header__sticker-row {
+    display: none;
+  }
+}
 .header__sticker {
   height: 369px;
   max-width: 624px;
