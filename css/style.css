@@ -717,7 +717,7 @@ input:focus:-ms-input-placeholder {
 }
 @media (max-width: 992px) {
   .hp__main-images {
-    flex: 0 0 auto;
+    flex: 1 1 auto;
   }
 }
 .hp__big-image img {
@@ -741,7 +741,12 @@ input:focus:-ms-input-placeholder {
 }
 @media (max-width: 992px) {
   .hp__logo-icons {
-    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+  }
+  .hp__logo-icons img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 1350px) {
@@ -759,6 +764,7 @@ input:focus:-ms-input-placeholder {
 @media (max-width: 992px) {
   .hp__text {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 .hp__text-description {
