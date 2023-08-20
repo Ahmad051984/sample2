@@ -693,8 +693,10 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		margin-top: 25px;
 		max-width: 624px;
 		// height: 125px;
-
 		line-height: 34px;
+		@media (max-width: 992px) {
+			max-width: 100%;
+		}
 	}
 	
 	&__list {
@@ -748,6 +750,9 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .purchase {
 	display: flex;
 	background: #000;
+	@media (max-width: 992px) {
+		display: block;
+	}
 	&__image {
 		flex: 0 1 50%;
 		@media (max-width: 1350px) {
@@ -801,6 +806,10 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 				padding-left: 42px;
 			}
 		}
+		@media (max-width: 992px) {
+			margin-left: 12px;
+			padding-bottom: 70px;
+		}
 	}
 
 	&__title {
@@ -826,6 +835,11 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		max-width: 319px;
 		flex-wrap: wrap;
 		justify-content: space-between;
+
+		@media (max-width: 992px) {
+			padding-right: 15px;
+			margin-left: -12px;
+		}
 	}
 
 	&__platform-box-item {
