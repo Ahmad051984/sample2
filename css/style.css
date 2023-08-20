@@ -918,21 +918,45 @@ input:focus:-ms-input-placeholder {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .footer__white {
+    justify-content: center;
+  }
 }
 .footer__logo {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 340px) {
+  .footer__logo {
+    margin-bottom: 50px;
+  }
 }
 .footer__logo-item + .footer__logo-item {
   padding-left: 32px;
 }
 .footer__links {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer__links a {
   color: black;
 }
+@media (max-width: 340px) {
+  .footer__links {
+    position: absolute;
+    padding-right: 32px;
+    bottom: 40px;
+    background: #E6E6E6;
+  }
+}
 .footer__links div {
   margin-left: 32px;
+  margin-top: 15px;
 }
 .footer__black {
   background-color: black;

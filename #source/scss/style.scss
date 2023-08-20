@@ -857,10 +857,19 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		justify-content: space-between;
 		align-items: center;
 		padding: 15px 0;
+		flex-wrap: wrap;
+		@media (max-width: 992px) {
+			justify-content: center;
+		}
 	}
 
 	&__logo {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		@media (max-width: 340px) {
+			margin-bottom: 50px;
+		}
 	}
 
 
@@ -870,12 +879,21 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 
 	&__links {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		a{
 			color:black;
+		}
+		@media (max-width: 340px) {
+			position: absolute;
+			padding-right: 32px;
+			bottom: 40px;
+			background: #E6E6E6;
 		}
 	}
 	&__links div {
 		margin-left: 32px;
+		margin-top: 15px;
 	}
 	&__black{
 		background-color: black;
