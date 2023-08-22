@@ -50,7 +50,6 @@ $fontfamily: 'Roboto', sans-serif;
 	max-width: 1310px;
 	margin: 0 auto;
 	padding: 0 15px;
-	// overflow: hidden;
 }
 
 @media (max-width: 1350px) {
@@ -131,14 +130,9 @@ $fontfamily: 'Roboto', sans-serif;
 		@media (max-height: 500px) {
 			display: none;
 		}
-
-		// height: 875px;
-		// margin-top: 475px;
 	}
+
 	&__sticker {
-		// margin-top: 505.51px;
-		// margin-left: 50.833vw;
-		// margin-left: 976px;
 		height: 369px;
 		max-width: 624px;
 		background-size: contain;
@@ -148,10 +142,6 @@ $fontfamily: 'Roboto', sans-serif;
 			height: 207px;
 			flex-shrink: 0;
 			margin: 0 -15px;
-
-		}
-		@media (max-width: 320px) {
-			
 		}
 	}
 
@@ -201,8 +191,6 @@ $fontfamily: 'Roboto', sans-serif;
 .swiper {
 	max-width: 100%;
 	height: 100vh;
-	// height: 1000px;
-
   }
 .swiper-wrapper{
 }
@@ -239,15 +227,12 @@ $fontfamily: 'Roboto', sans-serif;
 .about {
 
 	&__title {
-		// max-width: 996px;
-		// height: 63px;
 		margin-top: 70px;
 	}
 
 	&__text {
 		margin-top: 25px;
 		max-width: 952px;
-		// height: 125px;
 		color: #777;
 		font-size: 18px;
 		line-height: 34px;
@@ -281,17 +266,6 @@ $fontfamily: 'Roboto', sans-serif;
 			}
 		}
 	}
-	// &__small-images img + img {
-	// 	margin-top: 32px;
-	// 		@media (max-width: 1350px) {
-	// 		margin-top: 0px;
-	// 		margin-left: 28px;
-	// 	}
-	// 	@media (max-width: 992px) {
-	// 		margin-top: 32px;
-	// 		margin-left: 0;
-	// 	}
-	// }
 
 	&__small-images picture + picture {
 		img {
@@ -505,11 +479,7 @@ $fontfamily: 'Roboto', sans-serif;
 	&__btn{
 		margin-top: 35px;
 		background: #F8F200;
-		// width: 192px;
-		// height: 59px;
 		color: #000;
-		// font-size: 18px;
-		// font-weight: 700;
 	}
 
 
@@ -552,9 +522,6 @@ $fontfamily: 'Roboto', sans-serif;
 		display: flex;
 		max-width: 788px;
 		margin-top: -60px;
-		// margin-left: 15px;
-		// flex-wrap: wrap;
-		// overflow: hidden;
 		@media (max-width: 1350px) {
 			display: block;
 			position: absolute;
@@ -666,11 +633,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		}
 	}
 
-	// &__logo-icon + &__logo-icon{
-	// 	display: block;
-	// 	margin-left: 25px;
-	// }
-
 	&__logo-icon {
 		@media (max-width: 1350px) {
 			display: block;
@@ -695,7 +657,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	&__text-description {
 		margin-top: 25px;
 		max-width: 624px;
-		// height: 125px;
 		line-height: 34px;
 		@media (max-width: 992px) {
 			max-width: 100%;
@@ -704,17 +665,12 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	
 	&__list {
 		margin-top: 31px;
-		// font-size: 18px;
 		line-height: normal;
-		// li:first-child {
-		// 	margin-top: 31px;
-		// }
 		li + li{
 			margin-top: 26px;
 		}
 		li:nth-child(1){
 			content:'';
-			// width: 32px;
 			height: 32px;
 			background-image: url(../img/block-4/color_lens.svg);
 			background-repeat:no-repeat;
@@ -732,7 +688,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 		}
 		li:nth-child(3){
 			content:'';
-			// width: 32px;
 			height: 32px;
 			background-image: url(../img/block-4/motion.svg);
 			background-repeat:no-repeat;
@@ -783,7 +738,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 			}
 			li:nth-child(1){
 				content:'';
-				// width: 32px;
 				height: 32px;
 				background-image: url(../img/purchase/icon-1.svg);
 				background-repeat:no-repeat;
@@ -792,7 +746,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 			}
 			li:nth-child(2){
 				content:'';
-				// width: 32px;
 				height: 32px;
 				background-image: url(../img/purchase/icon-2.svg);
 				background-repeat:no-repeat;
@@ -801,7 +754,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 			}
 			li:nth-child(3){
 				content:'';
-				// width: 32px;
 				height: 32px;
 				background-image: url(../img/purchase/icon-3.svg);
 				background-repeat:no-repeat;
@@ -851,7 +803,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	}
 }
 
-// Footer
+// Footer===================================================
 
 .footer {
 
