@@ -121,7 +121,7 @@ h6 {
   }
 }
 ::-webkit-scrollbar {
-  width: 0;
+  width: 1;
 }
 
 .header__main {
