@@ -449,7 +449,6 @@ h6 {
 .play__text {
   margin-top: 25px;
   max-width: 952px;
-  height: 91px;
   color: #FFF;
   font-size: 18px;
   line-height: 34px;
@@ -800,29 +799,23 @@ input:focus:-ms-input-placeholder {
 .hp__list li + li {
   margin-top: 26px;
 }
-.hp__list li:nth-child(1) {
-  content: "";
-  height: 32px;
-  background-image: url(../img/block-4/color_lens.svg);
+.hp__list li {
+  min-height: 32px;
   background-repeat: no-repeat;
   background-position: 0 -3px;
   padding-left: 42px;
+}
+.hp__list li:nth-child(1) {
+  content: "";
+  background-image: url(../img/block-4/color_lens.svg);
 }
 .hp__list li:nth-child(2) {
   content: "";
-  height: 32px;
   background-image: url(../img/block-4/clarity.svg);
-  background-repeat: no-repeat;
-  background-position: 0 -3px;
-  padding-left: 42px;
 }
 .hp__list li:nth-child(3) {
   content: "";
-  height: 32px;
   background-image: url(../img/block-4/motion.svg);
-  background-repeat: no-repeat;
-  background-position: 0 -3px;
-  padding-left: 42px;
 }
 .hp__btn {
   margin-top: 45px;
