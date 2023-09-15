@@ -204,6 +204,7 @@ h6 {
 .header__title {
   height: 126px;
   margin: 70px 70px 25px 70px;
+  overflow: hidden;
   top: 50px;
 }
 @media (max-width: 655px) {
